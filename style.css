@@ -15,6 +15,18 @@ body {
 	flex-direction: column;
 	gap: 25px;
 }
+.paginaLinks li {
+	display: inline-block;
+	text-decoration: none;
+	padding: 2%;
+}
+a {
+	text-decoration: none;
+	font-family: "Sour Gummy", sans-serif;
+	font-size: 25px;
+	margin: 0 15px;
+}
+
 .title {
 	text-align: center;
 	font-family: "Sour Gummy", sans-serif;
@@ -37,7 +49,6 @@ body {
 .blue {
 	color: #b2dfdc;
 }
-
 .img_center {
 	display: flex;
 	justify-content: center;
@@ -59,6 +70,9 @@ body {
 .yellow {
 	color: #f9d21d;
 }
+.orange {
+	color: #ffc98c;
+}
 .variety_links {
 	display: flex;
 	justify-content: center;
@@ -76,6 +90,7 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	padding-bottom: 2%;
 }
 .emailSignUp {
 	text-decoration: none;
@@ -112,7 +127,37 @@ input {
 	font-weight: bold;
 	color: #e4685d;
 }
+li {
+	list-style-type: none;
+}
 .faq {
 	color: black;
 	font-size: 25px;
 }
+.shipping {
+	font-family: "Sour Gummy", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e4685d;
+}
+.return {
+	font-family: "Sour Gummy", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #e4685d;
+}
+
+/* <h2 class="variety_links"> <span class="blue2"> Trending </span> <span class="pink3"> Baby </span> <span
+            class="orange2"> Toddlers </span> <span class="blue"> Kids </span> <span class="yellow"> Adults </span><span
+            class="pink"> Sales </span>
+        </h2> */
+
+/* <div class="content_bottom">
+          <span class="faq"> Frequently asked questions</span>
+          <div class="shipping">
+            Shipping policy
+          </div>
+          <div class="return">
+            Return Policy
+          </div>
+        </div> */
