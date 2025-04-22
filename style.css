@@ -132,32 +132,10 @@ li {
 }
 .faq {
 	color: black;
-	font-size: 25px;
 }
-.shipping {
+.policies {
 	font-family: "Sour Gummy", sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	color: #e4685d;
 }
-.return {
-	font-family: "Sour Gummy", sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-	color: #e4685d;
-}
-
-/* <h2 class="variety_links"> <span class="blue2"> Trending </span> <span class="pink3"> Baby </span> <span
-            class="orange2"> Toddlers </span> <span class="blue"> Kids </span> <span class="yellow"> Adults </span><span
-            class="pink"> Sales </span>
-        </h2> */
-
-/* <div class="content_bottom">
-          <span class="faq"> Frequently asked questions</span>
-          <div class="shipping">
-            Shipping policy
-          </div>
-          <div class="return">
-            Return Policy
-          </div>
-        </div> */
